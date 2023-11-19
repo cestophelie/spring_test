@@ -18,11 +18,19 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+<<<<<<< HEAD
+	testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+=======
+>>>>>>> 9bd5026731b2021e4e2293ae63bf9f4515c5db3f
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+<<<<<<< HEAD
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+=======
+>>>>>>> 9bd5026731b2021e4e2293ae63bf9f4515c5db3f
 }
 
 tasks.named('bootBuildImage') {
