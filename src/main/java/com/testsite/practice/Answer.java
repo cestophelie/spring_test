@@ -23,7 +23,7 @@ public class Answer {
 	
 	@Column(columnDefinition = "TEXT")
 	private String content;
-	
+	 
 	private LocalDateTime createDate;
 		
 	@ManyToOne // 1:N = question:answers
