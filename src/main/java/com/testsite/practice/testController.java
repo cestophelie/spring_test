@@ -11,5 +11,12 @@ public class testController {
 	public String test() {
 		return "sample still working? yes yes";
 	}
+	
+	@GetMapping("/")
+	public String root() {
+		return "redirect:/question/list";
+		// Differences between redirect and forward
+		// Redirect requests the new URL
+		// Forward requests the URL alongside with the previously requested parameters
+	}
 }
- 

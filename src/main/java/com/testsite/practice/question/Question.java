@@ -1,7 +1,9 @@
-package com.testsite.practice;
+package com.testsite.practice.question;
 
 import java.time.LocalDateTime;
 import java.util.List;
+
+import com.testsite.practice.answer.Answer;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -37,6 +39,5 @@ public class Question {
 	
 	@OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE)
 	private List<Answer> answerList;
-	
-	
+
 }

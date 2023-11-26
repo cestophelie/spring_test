@@ -1,6 +1,8 @@
-package com.testsite.practice;
+package com.testsite.practice.answer;
 
 import java.time.LocalDateTime;
+
+import com.testsite.practice.question.Question;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
